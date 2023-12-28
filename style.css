@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This makes the container take the full viewport height */
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.screen {
+    background-color: grey;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* Aligns vertically in the center */
+    justify-content: flex-end; /* Aligns horizontally to the right */
+    padding-right: 10px; /* Adds some padding on the right */
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
